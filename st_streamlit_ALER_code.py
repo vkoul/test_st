@@ -17,7 +17,7 @@ def app():
 
     # Create the input fields
     manh_distance = st.slider('walking distance to City centre', min_value=1, max_value=15, value=2)
-    bus time = st.number_input('Bus time to City centre', min_value=10, max_value=60, value=11)
+    bus_time = st.number_input('Bus time to City centre', min_value=10, max_value=60, value=11)
     base = st.number_input('Auction base', min_value=50000, max_value=350000, value=68000)
     sqm_value = st.number_input('OMI value', min_value=800, max_value=5000, value=2500)
 
